@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-API_URL = os.getenv("API_URL", "https://personaai-backend-15h6.onrender.com/chat")  # Use your backend URL
+API_URL = os.getenv("API_URL", "https://personaai-backend-15h6.onrender.com/chat")  # backend URL
 
 # Page config
 st.set_page_config(page_title="PersonaAI", page_icon="")
