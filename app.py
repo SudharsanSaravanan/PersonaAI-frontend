@@ -8,7 +8,9 @@ API_URL = os.getenv("API_URL", "https://personaai-backend-15h6.onrender.com/chat
 
 st.set_page_config(page_title="PersonaAI", page_icon="")
 st.title("PersonaAI")
-
+st.markdown(
+    "This is an AI assistant that can answer personal questions and other common queries seamlessly."
+)
 # Initialize session state for chat history
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
